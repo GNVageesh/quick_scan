@@ -4,9 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:focused_menu/focused_menu.dart';
 import 'package:focused_menu/modals.dart';
-
-import '../Utilities/constants.dart';
-import '../Utilities/cropper.dart';
+import 'package:quick_scan/Utilities/constants.dart';
+import 'package:quick_scan/Utilities/cropper.dart';
 
 class ImageCard extends StatelessWidget {
   const ImageCard({this.imageFile, this.imageFileEditCallback});
@@ -89,10 +88,12 @@ class ImageCard extends StatelessWidget {
                             imageFileEditCallback();
                             Navigator.pop(context);
                           },
-                          child: Text(
-                            'Delete',
-                            style: TextStyle(color: Colors.redAccent),
-                          ),
+                          child: [
+                            Text(
+                              'Delete',
+                              style: TextStyle(color: Colors.redAccent),
+                            ),
+                          ],
                         ),
                       ],
                     );

@@ -1,11 +1,11 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:quick_scan/Utilities/constants.dart';
 import 'package:quick_scan/screens/about_screen.dart';
 import 'package:quick_scan/screens/home_screen.dart';
 import 'package:quick_scan/screens/scan_document.dart';
 import 'package:quick_scan/screens/view_document.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/cupertino.dart';
 
 import 'screens/pdf_screen.dart';
 import 'screens/splash_screen.dart';
